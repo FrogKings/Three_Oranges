@@ -5,21 +5,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>注册</title>
-<script type="text/javascript" src="js/registry.js"></script>
+<script type="text/javascript" src="../js/registry.js"></script>
 </head>
-<body>
+<body bgcolor="#E8E8E8">
 <div style="height: 200px;color: #8F3300"></div>
 <table>
 <tr>
 <td width="400">
 </td>
 <td>
-<table cellpadding="" cellspacing="1" dir="rtl">
+<table cellpadding="1" cellspacing="1" align="right">
 	<tr>
 	<td>用户名</td>
-	<td><input type="text" name="o_username" onmouseout="ocheckuname()"/></td>
+	<td><input type="text" name="o_username"  onmouseout="ocheckuname()"/></td>
 	<td colspan="2" rowspan="4">
-	<img alt="" src="picture/img-default.jpg" style="width: 236px; height: 76px; "><br>
+	<img alt="" src="../picture/img-default.jpg" style="width: 236px; height: 76px; "><br>
 	<input type="file" name="o_userimg" onmouseover="showpnoto()" id="o_userimg"/></td>
 	</tr>
 	<tr>
@@ -30,7 +30,7 @@
 	<td></td>
 	</tr>
 	<tr>
-	<td>性$nbsp;$nbsp;别</td>
+	<td>性  别</td>
 	<td><select name="o_useragenda" style="width: 153px; ">
 				<option>----</option>
 				<option>男</option>

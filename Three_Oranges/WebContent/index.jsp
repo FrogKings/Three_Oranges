@@ -10,12 +10,12 @@
 <center><h1><font color="orange">Three Oranges</font></h1></center>
 <hr>
 
-<div><h2>$nbps;$nbps;$nbps;<a href="registry/registry.jsp">registry.jsp</a></h2></div><br>
-<div><h2>$nbps;$nbps;$nbps;<a href=""></a></h2></div><br>
-<div><h2>$nbps;$nbps;$nbps;<a href=""></a></h2></div><br>
-<div><h2>$nbps;$nbps;$nbps;<a href=""></a></h2></div><br>
-<div><h2>$nbps;$nbps;$nbps;<a href=""></a></h2></div><br>
-<div><h2>$nbps;$nbps;$nbps;<a href=""></a></h2></div><br>
+<div><h2><a href="registry/registry.jsp">registry.jsp</a></h2></div><br>
+<div><h2><a href="">registry.jsp</a></h2></div><br>
+<div><h2><a href="">registry.jsp</a></h2></div><br>
+<div><h2><a href="">registry.jsp</a></h2></div><br>
+<div><h2><a href="">registry.jsp</a></h2></div><br>
+<div><h2><a href="">registry.jsp</a></h2></div><br>
 
 
 </body>

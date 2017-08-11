@@ -1,0 +1,46 @@
+#registry_h1{
+	font-size:32;
+	color: #CD2626;
+}
+
+#o_userverify{
+	size: 14px;
+	color: #FF00FF;
+}
+
+#registry_head{
+	height:123px;
+	background: silver;
+	width: 100%;
+	color : orange;
+	font-family:	 cursive; 
+	vertical-align: middle;
+}
+
+.table_registry{
+	border-color: #FFFF00;
+	overflow: visible;
+}
+
+.reg_bottom(){
+	background: blue;
+	vertical-align: bottom;
+}
+
+.registry_tail{
+	background : maroon;
+	height: 300px;
+	width: 100%;
+	font-family: inherit;
+	font-size: xx-small;
+	font-weight: bold;
+}
+
+.registry.body{
+	background : #454545;
+}
+
+#registry-bottom{
+	background: balck;
+}
+

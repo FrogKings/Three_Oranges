@@ -11,7 +11,7 @@
 		<script type="text/javascript" src="../js/registry.js"></script>
 	</head>
 
-	<body class="main_background">
+	<body class="">
 
 		<div id="registry_head" align="center">
 			<div style="width: 70%" align="right">
@@ -21,7 +21,7 @@
 		</div>
 		<div class="registry_body">
 			<form action="" method="post" onsubmit="isValid(this)">
-				<table class="table-registry">
+				<table class="table-registry" cellpadding="1" cellspacing="2">
 					<tr>
 						<td style="width: 740px;">
 							<table cellpadding="1" cellspacing="1" align="right" style="width: 717px;">
@@ -31,7 +31,7 @@
 
 								<tr>
 									<td>用户名</td>
-									<td><input type="text"  name="o_username" onmouseout="ocheckuname()" style="width: 220px;" /></td>
+									<td><input type="text"  id="o_username" onmouseout="ocheckuname()" style="width: 220px;" /></td>
 									<td colspan="2" rowspan="4"><img alt="" src="../picture/img-default.jpg" style="width: 236px; height: 149px;"><br> <br>
 										<input type="file" name="o_userimg" onmouseover="showpnoto()" id="o_userimg" /></td>
 								</tr>
@@ -67,7 +67,8 @@
 									<td colspan="2" id="userEmailInfo"></td>
 								</tr>
 								<tr>
-									<td colspan="4">爱好：<input type="checkbox" name="checkbox" value="音乐1">音乐1 <input type="checkbox" name="checkbox" value="音乐2">音乐2
+									<td>爱好</td>
+									<td colspan="3"><input type="checkbox" name="checkbox" value="音乐1">音乐1 <input type="checkbox" name="checkbox" value="音乐2">音乐2
 										<input type="checkbox" name="checkbox" value="音乐3">音乐3 <input type="checkbox" name="checkbox" value="音乐4">音乐4
 										<input
 										 type="checkbox" name="checkbox" value="音乐5">音乐5 <input type="checkbox" name="checkbox" value="音乐6">音乐6 <input type="button" value="show" onclick="showcheckbox()"
@@ -85,23 +86,45 @@
 								</tr>
 							</table>
 						</td>
-						<td width="400"></td>
+						<td id="for_pic"><img class="pic_size" src="../picture/o_logo.jpg"></td>
 					</tr>
 				</table>
 			</form>
 		</div>
 		<div class="reg_bottom">
-			<div class=“registry_tail”>
-			<span style="width: 25%">A</span>		
-			<span style="width: 25%">A</span>		
-			<span style="width: 25%">A</span>		
-			<span style="width: 25%">A</span>		
+			<div class=“”>
+				<table>
+					<tr>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+					</tr>
+					<tr>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+					</tr>
+					<tr>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+					</tr>
+					<tr>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+						<th><div><a href="#">A</a></div></th>
+					</tr>
+				</table>	
 			</div>
-			<div id="registry-bottom">
-				<center>
-					<a href="#">@萝卜第三刀</a>版权所有,侵权必究
-				</center>
-			</div>
+		</div>
+		<div class="registry-bottom">
+			<center>
+				<span><a href="#">@萝卜第三刀</a>版权所有,侵权必究</span>
+			</center>
 		</div>
 	</body>
 

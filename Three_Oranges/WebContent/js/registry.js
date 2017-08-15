@@ -1,12 +1,12 @@
 function ocheckuname() {
-	var o_username = document.getElementsByName("o_username");
-	alert(o_username[0].value);
-	console.log(o_username[0].value); 
+	var o_username = document.getElementById("o_username");
+	alert(o_username.value);
+	console.log(o_username.value); 
 	// I just could not figure out why it renturned "undefined" when print it in console or alert.
 	/**
 	 * Solution:
-	 * 1、document.getElementsByName()返回一个List数组，获取其value值需要指定到具体的对象
-	 * 
+	 * 1、根据name去获取，document.getElementsByName()返回一个List数组，获取其value值需要指定到具体的对象object[i].value
+	 * 2、使用ID来获取，document.getElementById()返回的则是一个数据的对象，可以直接获取其value值:object.value
 	 */
 
 	if (o_username != null) {

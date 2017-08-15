@@ -22,8 +22,8 @@
 	overflow: visible;
 }
 
-.reg_bottom(){
-	background: blue;
+.reg_bottom{
+	color:black;	
 	vertical-align: bottom;
 }
 
@@ -34,13 +34,31 @@
 	font-family: inherit;
 	font-size: xx-small;
 	font-weight: bold;
+	text-align: center;
 }
 
 .registry.body{
 	background : #454545;
 }
 
-#registry-bottom{
-	background: balck;
+.registry-bottom{
+	background: gainsboro;
 }
 
+.reg_bottom div{
+	background: gray;
+}
+
+.reg_bottom th{
+	size: 25%;
+}
+
+#for_pic{
+	width: 50%;
+	height: 60%;
+}
+
+.pic_size{
+	width: 98%;
+	height: inherit;
+}

@@ -23,7 +23,7 @@
 }
 
 .reg_bottom{
-	color:black;	
+	color:#38acc0;	
 	vertical-align: bottom;
 }
 
@@ -55,10 +55,31 @@
 
 #for_pic{
 	width: 50%;
-	height: 60%;
+	height: 50%;
 }
 
 .pic_size{
 	width: 98%;
 	height: inherit;
+}
+
+li{
+	float: left;
+	list-style: none;
+	height: 35px;
+}
+
+.form-login div{
+	height: 8%;
+	width: 12%;
+}
+
+.background-login{
+	width:100%;
+	height: 80%;
+	bottom: 2px;
+}
+
+.main—nav{
+	background:#38ACC0;
 }

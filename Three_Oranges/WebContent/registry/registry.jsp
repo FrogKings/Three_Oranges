@@ -31,7 +31,7 @@
 
 								<tr>
 									<td>用户名</td>
-									<td><input type="text"  id="o_username" onmouseout="ocheckuname()" style="width: 220px;" /></td>
+									<td><input type="text"  id="o_username"  name="o_username" onmouseout="ocheckuname()" style="width: 220px;" /></td>
 									<td colspan="2" rowspan="4"><img alt="" src="../picture/img-default.jpg" style="width: 236px; height: 149px;"><br> <br>
 										<input type="file" name="o_userimg" onmouseover="showpnoto()" id="o_userimg" /></td>
 								</tr>
@@ -40,10 +40,10 @@
 								</tr>
 								<tr>
 									<td>密 码</td>
-									<td><input type="password" name="o_password" style="width: 220px;" /></td>
+									<td><input type="password" id="o_password" name="o_password" onmouseout="ocheckpswd()" style="width: 220px;" /></td>
 								</tr>
 								<tr>
-									<td colspan="2" id="o_password">*请输入密码</td>
+									<td colspan="2" id="o_pswdverify">*请输入密码</td>
 								</tr>
 								<tr>
 									<td>再次输入</td>

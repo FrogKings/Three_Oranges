@@ -19,6 +19,19 @@ function ocheckuname() {
 	}
 }
 
+function ocheckswsd(){
+	var pswd = document.getElementById("o_password").value;
+	
+	if(ture){
+		document.getElementById("o_pswdverify").innerHTML="当前输入为有效密码";
+		alert(pswd);console.log("错误密码： "+pswd);
+	}
+	else{
+		document.getElementById("o_pswdverify").innerHTML="新密码包含非法字符！请重新输入！";
+		alert(pswd);console.log("有效密码： "+pswd);
+	}
+}
+
 function showpnoto() {
 	alert("图片展示待处理");
 }

@@ -11,7 +11,7 @@
 <hr>
 
 <div><h2><a href="registry/registry.jsp">registry.jsp</a></h2></div><br>
-<div><h2><a href="">registry.jsp</a></h2></div><br>
+<div><h2><a href="main/main_Orange.jsp">main_Orange.jsp</a></h2></div><br>
 <div><h2><a href="">registry.jsp</a></h2></div><br>
 <div><h2><a href="">registry.jsp</a></h2></div><br>
 <div><h2><a href="">registry.jsp</a></h2></div><br>

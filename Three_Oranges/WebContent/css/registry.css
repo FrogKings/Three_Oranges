@@ -11,10 +11,11 @@
 
 #registry_head{
 	height:123px;
-	background: silver;
+	background: #FF1111;
 	width: 100%;
-	color : orange;
-	font-family:	 cursive; 
+	border-color:silver;
+	color : White;
+	font-family: cursive; 
 	vertical-align: middle;
 }
 
@@ -90,8 +91,28 @@ li{
 	bottom: 2px;
 }
 
-.main—nav{
-	background:#38ACC0;
+
+.div-sqrt1{
+	border-radius: 5px 5px 5px 5px;
+	background: orange;
+	width: 320px;
+	overflow: auto;
+	float: left;
+	}
+
+.div-sqrt2{
+	border-radius: 5px 5px 5px 5px;
+	background: blue;
+	width: 320px;
+	overflow: auto;
+	float: left;
+	clear: none;
+}
+.div-sqrt{
+	border-radius:5px 5px 5px 5px;
+	background:teal;
+	width: 320px;	
+	overflow: auto;
 }
 
  

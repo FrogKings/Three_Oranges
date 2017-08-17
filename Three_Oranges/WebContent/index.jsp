@@ -10,10 +10,10 @@
 <center><h1><font color="orange">Three Oranges</font></h1></center>
 <hr>
 
-<div><h2><a href="registry/registry.jsp">registry.jsp</a></h2></div><br>
-<div><h2><a href="main/main_Orange.jsp">main_Orange.jsp</a></h2></div><br>
-<div><h2><a href="main/page1.jsp">page1.jsp</a></h2></div><br>
-<div><h2><a href="main/page2.jsp">page2.jsp</a></h2></div><br>
+<div style="float: left;"><h2><a href="registry/registry.jsp">registry.jsp</a></h2></div>
+<div style="float: left;"><h2><a href="main/main_Orange.jsp">main_Orange.jsp</a></h2></div><br>
+<div style="float: left;clear: left;"><h2><a href="main/page1.jsp">page1.jsp</a></h2></div>
+<div style="float: left;"><h2><a href="main/page2.jsp">page2.jsp</a></h2></div><br>
 
 
 </body>

@@ -1,11 +1,12 @@
 #registry_h1{
-	font-size:32;
-	color: #CD2626;
+	font-size:36;
+	color: #ff8040;
+	text-align: center;
 }
 
-#o_userverify{
+#o_userverify,#recheckInfo,#o_pswdverify{
 	size: 14px;
-	color: #FF00FF;
+	color: #DF0000;
 }
 
 #registry_head{
@@ -17,10 +18,21 @@
 	vertical-align: middle;
 }
 
-.table_registry{
-	border-color: #FFFF00;
-	overflow: visible;
+.table-registry{
+	width: 70%;
 }
+
+.table-registry input{
+		border-bottom-color: infobackground;
+}
+
+.table-registry img{
+	vertical-align: middle;
+	text-align: center;
+	height: 149px;
+	width: 149px;
+}
+
 
 .reg_bottom{
 	color:#38acc0;	
@@ -41,8 +53,10 @@
 	background : #454545;
 }
 
-.registry-bottom{
-	background: gainsboro;
+
+
+.registry-bottom div {
+	background: orange;
 }
 
 .reg_bottom div{
@@ -53,10 +67,6 @@
 	size: 25%;
 }
 
-#for_pic{
-	width: 50%;
-	height: 50%;
-}
 
 .pic_size{
 	width: 98%;
@@ -83,3 +93,5 @@ li{
 .main—nav{
 	background:#38ACC0;
 }
+
+ 

@@ -21,18 +21,16 @@
 		</div>
 		<div class="registry_body">
 			<form action="" method="post" onsubmit="isValid(this)">
-				<table class="table-registry" cellpadding="1" cellspacing="2">
-					<tr>
-						<td style="width: 740px;">
-							<table cellpadding="1" cellspacing="1" align="right" style="width: 717px;">
+			<center>
+				<table class="table-registry">
+					
 								<tr>
-									<td colspan="4" id="registry_h1"><span><center>注 册</center></span></td>
+									<th colspan="4" id="registry_h1"><span>注 册</span></th>
 								</tr>
-
 								<tr>
 									<td>用户名</td>
-									<td><input type="text"  id="o_username"  name="o_username" onmouseout="ocheckuname()" style="width: 220px;" /></td>
-									<td colspan="2" rowspan="4"><img alt="" src="../picture/img-default.jpg" style="width: 236px; height: 149px;"><br> <br>
+									<td><input type="text"  id="o_username"  name="o_username" oninput="ocheckuname()"  /></td>
+									<td colspan="2" rowspan="5"><img alt="" src="../picture/img-default.jpg" style="width: 149px; height: 149px;"><br> <br>
 										<input type="file" name="o_userimg" onmouseover="showpnoto()" id="o_userimg" /></td>
 								</tr>
 								<tr>
@@ -40,16 +38,23 @@
 								</tr>
 								<tr>
 									<td>密 码</td>
-									<td><input type="password" id="o_password" name="o_password" onmouseout="ocheckpswd()" style="width: 220px;" /></td>
+									<td><input type="password" id="o_password" name="o_password" oninput="ocheckpswd()"  /></td>
 								</tr>
 								<tr>
-									<td colspan="2" id="o_pswdverify">*请输入密码</td>
+									<td colspan="2"><span id="o_pswdverify">*请输入密码</span></td>
+									
+									
 								</tr>
 								<tr>
 									<td>再次输入</td>
-									<td><input type="password" name="o_password" style="width: 220px;" /></td>
-									<td></td>
-									<td></td>
+									<td><input type="password" name="o_repassword" id="o_repassword"  onblur="recheckpswd()" /></td>
+									
+									
+								</tr>
+								<tr>
+								<td colspan="2"><span id="recheckInfo"></span></td>
+								<td></td>
+								<td></td>
 								</tr>
 								<tr>
 									<td>性 别</td>
@@ -62,8 +67,14 @@
 									<td></td>
 								</tr>
 								<tr>
+								<td>联系电话</td>
+								<td ><input type="text" name="o_userphone" id="o_userphone" oninput="checkUphone()"/></td>
+								<td colspan="2"><span id="checkUphoneInfo"></span></td>
+								
+								</tr>
+								<tr>
 									<td>邮箱</td>
-									<td><input type="text" name="o_userEmail" id="userEmail" onmouseout="checkEmail()" style="width: 220px;" /></td>
+									<td><input type="text" name="o_userEmail" id="userEmail" onfocus="checkEmail()"  /></td>
 									<td colspan="2" id="userEmailInfo"></td>
 								</tr>
 								<tr>
@@ -81,19 +92,16 @@
 								</tr>
 								<tr>
 									<td></td>
-									<td colspan="2"><input type="submit" class="registry-button1" value="确认" /></td>
+									<td colspan="2" ><input type="submit" class="registry-button1" value="确认" /></td>
 									<td></td>
 								</tr>
-							</table>
-						</td>
-						<td id="for_pic"><img class="pic_size" src="../picture/o_logo.jpg"></td>
-					</tr>
 				</table>
+			</center>
 			</form>
 		</div>
 		<div class="reg_bottom">
 			<div class=“”>
-				<table>
+				<table width="100%">
 					<tr>
 						<th><div><a href="#">A</a></div></th>
 						<th><div><a href="#">A</a></div></th>
@@ -122,9 +130,9 @@
 			</div>
 		</div>
 		<div class="registry-bottom">
-			<center>
+			<div><center>
 				<span><a href="#">@萝卜第三刀</a>版权所有,侵权必究</span>
-			</center>
+			</center></div>
 		</div>
 	</body>
 

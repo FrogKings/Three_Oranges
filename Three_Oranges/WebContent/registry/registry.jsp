@@ -16,7 +16,7 @@
 	<div>
 	<div id="registry_head" align="center">
 		<div style="width: 70%" align="right">
-			<span><font size="27">Three Oranges </font></span><br> <span>——萝卜第三刀
+			<span>Three Oranges</span><br> <span>——萝卜第三刀
 			</span>
 		</div>
 	</div>
@@ -112,70 +112,42 @@
 		</form>
 	</div>
 	</div>
-	<div>
-		<div></div>
-		<div></div>
-	</div>
 	<div class="reg_bottom">
-		<div class=“”>
-			<table width="100%">
-				<tr>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-				</tr>
-				<tr>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-				</tr>
-				<tr>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-				</tr>
-				<tr>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-					<th><div>
-							<a href="#">A</a>
-						</div></th>
-				</tr>
-			</table>
+		<div class="reg_bottom_div">
+			<span class="rbd-l">
+				<br>
+				<a href="#">寒雨连江夜入吴</a><br>
+				<a href="#">平民送客楚山孤</a><br>
+				<a href="#">洛阳亲友如相问</a><br>
+				<a href="#">一片冰心在玉壶</a><br>
+			</span>
+		</div>
+		<div class="reg_bottom_div">
+			<span class="rbd-l">
+				<br>
+				<a href="#">寒雨连江夜入吴</a><br>
+				<a href="#">平民送客楚山孤</a><br>
+				<a href="#">洛阳亲友如相问</a><br>
+				<a href="#">一片冰心在玉壶</a><br>
+			</span>
+		</div>
+		<div class="reg_bottom_div">
+			<span class="rbd-l">
+				<br>
+				<a href="#">寒雨连江夜入吴</a><br>
+				<a href="#">平民送客楚山孤</a><br>
+				<a href="#">洛阳亲友如相问</a><br>
+				<a href="#">一片冰心在玉壶</a><br>
+			</span>
+		</div>
+		<div class="reg_bottom_div">
+			<span class="rbd-l">
+				<br>
+				<a href="#">寒雨连江夜入吴</a><br>
+				<a href="#">平民送客楚山孤</a><br>
+				<a href="#">洛阳亲友如相问</a><br>
+				<a href="#">一片冰心在玉壶</a><br>
+			</span>	
 		</div>
 	</div>
 	<div class="registry-bottom">

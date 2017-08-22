@@ -15,9 +15,8 @@
 	<div></div>
 	<div>
 	<div id="registry_head" align="center">
-		<div style="width: 70%" align="right">
-			<span>Three Oranges</span><br> <span>——萝卜第三刀
-			</span>
+		<div>
+			<span>Three Oranges</span><br><span>——萝卜第三刀</span>
 		</div>
 	</div>
 	<div class="registry_body">
@@ -26,13 +25,13 @@
 				<table class="table-registry">
 
 					<tr>
-						<th colspan="4" id="registry_h1"><span>注 册</span></th>
+						<th colspan="3" id="registry_h1"><span>注 册</span></th>
 					</tr>
 					<tr>
 						<td>用户名</td>
 						<td><input type="text" id="o_username" name="o_username"
 							oninput="ocheckuname()" /></td>
-						<td colspan="2" rowspan="5"><img alt=""
+						<td colspan="1" rowspan="5"><img alt=""
 							src="../picture/img-default.jpg"
 							style="width: 149px; height: 149px;"><br> <br> <input
 							type="file" name="o_userimg" onmouseover="showpnoto()"
@@ -48,20 +47,16 @@
 					</tr>
 					<tr>
 						<td colspan="2"><span id="o_pswdverify">*请输入密码</span></td>
-
-
 					</tr>
 					<tr>
 						<td>再次输入</td>
 						<td><input type="password" name="o_repassword"
 							id="o_repassword" onblur="recheckpswd()" /></td>
-
-
 					</tr>
 					<tr>
 						<td colspan="2"><span id="recheckInfo"></span></td>
 						<td></td>
-						<td></td>
+						
 					</tr>
 					<tr>
 						<td>性 别</td>
@@ -71,41 +66,48 @@
 								<option>女</option>
 						</select></td>
 						<td></td>
-						<td></td>
+						
 					</tr>
 					<tr>
 						<td>联系电话</td>
 						<td><input type="text" name="o_userphone" id="o_userphone"
 							oninput="checkUphone()" /></td>
-						<td colspan="2"><span id="checkUphoneInfo"></span></td>
+						<td colspan="1"><span id="checkUphoneInfo"></span></td>
 
 					</tr>
 					<tr>
 						<td>邮箱</td>
 						<td><input type="text" name="o_userEmail" id="userEmail"
 							onfocus="checkEmail()" /></td>
-						<td colspan="2" id="userEmailInfo"></td>
+						<td colspan="1" id="userEmailInfo"></td>
+					</tr>
+					<tr>
+						<td>地址</td>
+						<td><input type="text" name="o_userAddress" id="o_userAddress"
+							onfocus="" /></td>
+						<td></td>
+						
 					</tr>
 					<tr>
 						<td>爱好</td>
-						<td colspan="3"><input type="checkbox" name="checkbox"
+						<td colspan="2"><input type="checkbox" name="checkbox"
 							value="音乐1">音乐1 <input type="checkbox" name="checkbox"
 							value="音乐2">音乐2 <input type="checkbox" name="checkbox"
 							value="音乐3">音乐3 <input type="checkbox" name="checkbox"
 							value="音乐4">音乐4 <input type="checkbox" name="checkbox"
 							value="音乐5">音乐5 <input type="checkbox" name="checkbox"
-							value="音乐6">音乐6 <input type="button" value="show"
-							onclick="showcheckbox()" /></td>
+							value="音乐6">音乐6 
+							<input type="button" value="show" onclick="showcheckbox()"/></td>
 					</tr>
 					<tr>
 						<td>备注信息</td>
-						<td colspan="3"><textarea rows="8" cols="40"></textarea></td>
+						<td colspan="2"><textarea rows="8" cols="40"></textarea></td>
 					</tr>
 					<tr>
 						<td></td>
 						<td colspan="2"><input type="submit"
 							class="registry-button1" value="确认" /></td>
-						<td></td>
+						
 					</tr>
 				</table>
 			</center>

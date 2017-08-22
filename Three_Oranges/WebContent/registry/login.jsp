@@ -11,10 +11,11 @@
 <body class="background-login" >
 	<div class="registry_head">
 		<div>
-			<span><img alt="" src="../picture/my-title.jpg"></img></span>
+			<span>Three Oranges</span>
+			<span>——萝卜第三刀</span>
 		</div>
 	</div>
-	<h1 align="center">&nbsp;&nbsp;&nbsp;&nbsp;小兔子跳啊跳 大耳朵摇啊摇</h1>
+	<h1 align="center">欢&nbsp;迎&nbsp;注&nbsp;册&nbsp;橘&nbsp;子&nbsp;用&nbsp;户</h1>
 	<hr>
 	<div class="form-login">
 		<form action="#" method="post">
@@ -29,6 +30,7 @@
 				<span>密&nbsp;码&nbsp;&nbsp;</span>&nbsp; &nbsp; <span>
 				<input type="password" name="o_password" id="o_password" onmouseout="ocheckpswd()" />
 				</span><br><span id="o_pswdverify"></span><br>
+				<span></span><br>
 		
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" >登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
 			</div>

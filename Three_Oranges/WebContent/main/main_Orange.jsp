@@ -15,9 +15,13 @@
         <span style="width: 72%; " >
             <span style="right: "><font size="56">Three Oranges </font></span><span style="vertical-align: bottom;">萝卜第三刀</span>
         </span>
- 		<span style="vertical-align: top;"><a href="../registry/login.jsp"><img src="../picture/login.jpg" style="height: 35px; width: 69px"></a></span>
-		<span style="vertical-align: top;"><a href="../registry/registry.jsp"><img src="../picture/regist.jpg" style="height: 35px; width: 69px"></a></span>
-    </div><hr>
+	    <div></div>
+	    		<div id="user_info">
+			<div id="welcome">欢迎 <font color="#8700AD" face="黑体"><s:property value="#session.LOGIN_userName"/></font> 登录</div>
+			
+		</div>
+    </div>
+    <hr>
  	<div class="main—nav">
  		<ul>
  			<li><span><a href="#"> 橘&nbsp;子&nbsp;东 </a></span>&nbsp;&nbsp;&nbsp;&nbsp;</li>

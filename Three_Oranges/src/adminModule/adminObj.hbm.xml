@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="userModule.adminObj" table="ORANGE_ADMIN">
+		<id name="Orange_adminId" column="O_ADMIN_ID">
+			<generator class="native"></generator>
+		</id>
+		<property name="Orange_adminName" column="O_ADMIN_NAME"></property>
+		<property name="Orange_adminPswd" column="O_ADMIN_PASSWORD"></property>
+		<property name="Orange_adminDetails" column="O_ADMIN_DETAILS"></property>
+	</class>
+</hibernate-mapping>

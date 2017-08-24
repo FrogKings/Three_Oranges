@@ -18,7 +18,7 @@
 	<h1 align="center">欢&nbsp;迎&nbsp;注&nbsp;册&nbsp;橘&nbsp;子&nbsp;用&nbsp;户</h1>
 	<hr>
 	<div class="form-login">
-		<form action="#" method="post">
+		<form action="user_login.action" method="post">
 			<div>
 			<div style="height: 40px;"></div>
 			<div>
@@ -34,6 +34,11 @@
 		
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" >登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
 			</div>
+			<div>
+						<font color="red">
+							<s:property value="#request.message"/> 
+						</font>
+					</div>
 			</div>
 		</form>
 	</div>

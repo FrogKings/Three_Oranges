@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="userModule.userObj" table="ORANGE_USER">
+	<id name="Orange_userId" column="ORANGE_USERID">
+		<generator class="native"></generator>	
+	</id>
+	<property name="Orange_userName"  column="ORANGE_USER_NAME"></property>
+	<property name="Orange_userPswd"  column="ORANGE_USER_PSWD"></property>
+	<property name="Orange_userAgenda"  column="ORANGE_USER_AGENDA"></property>
+	<property name="Orange_userTel"  column="ORANGE_USER_TEL"></property>
+	<property name="Orange_userEmail"  column="ORANGE_USER_EMAIL"></property>
+	<property name="Orange_userAddr"  column="ORANGE_USER_ADDR"></property>
+	<property name="Orange_userHobbies"  column="ORANGE_USER_HOBBIES"></property>
+	<property name="Orange_userInfo"  column="ORANGE_USER_INFO"></property>
+	<property name="Orange_userImg"  column="ORANGE_USER_IMG"></property>
+	</class>
+</hibernate-mapping>
+

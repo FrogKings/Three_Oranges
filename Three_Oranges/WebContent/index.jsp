@@ -15,6 +15,5 @@
 <div style="float: left;clear: left;"><h2><a href="main/page1.jsp">page1.jsp</a></h2></div>
 <div style="float: left;"><h2><a href="main/page2.jsp">page2.jsp</a></h2></div><br>
 
-
 </body>
 </html>

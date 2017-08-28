@@ -1,19 +1,16 @@
 package userActions;
 
-import org.apache.struts2.interceptor.RequestAware;
-import org.omg.CORBA.Request;
-
 import com.opensymphony.xwork2.ModelDriven;
 
 import objMethods.userSession;
 import userModule.userObj;
 
-public class userLogin extends superAction implements ModelDriven<userObj>{
+public class userLoginAction extends superAction implements ModelDriven<userObj>{
 	public userObj user = new userObj();
 	public String login() {
 		userSession us = new userSession();
 		if (us.login(user)) {
-			System.out.println("SUCCESS TO LOGIN! KKKKKKKKKKOOOOOOOOOOOOO!!!!!!");
+			System.out.println("SUCCESS TO LOGIN!   KKKKKKKKKKOOOOOOOOOOOOO!!!!!!");
 			Request.getSession().setAttribute("LOGIN_userName", user.getOrange_userName());
 			return "LOGIN_SUCCESS";
 		} else {

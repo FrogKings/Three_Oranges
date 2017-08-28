@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE struts SYSTEM "http://struts.apache.org/Struts2/struts-2.5.dtd" >
+   <!DOCTYPE struts PUBLIC	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN" "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
 	<package name="registry" namespace="/login" extends="struts-default">
-		<action name="user_login" class="userActions.userLogin" method="login">
+		<action name="user_login" class="userActions.userLoginAction" method="login">
 			<result name="LOGIN_SUCCESS">/main/main_Orange.jsp</result>
 			<result name="LOGIN_FAILURE">/registry/login.jsp</result>
 		</action>
 	</package>
-	<package name="#" namespace="" extends="struts-default">
-		
-	</package>
-	<package name="#" namespace="" extends="struts-default">
-		
-	</package>
-
 </struts>
